@@ -3,20 +3,22 @@
 During my Certura Machine Learning Internship, I completed three end-to-end ML tasks using Python, Scikit-learn, Pandas, NumPy, and Matplotlib. Each task focused on building, training, and evaluating models with proper preprocessing pipelines.
 
 # Task 1: California Housing Price Prediction
-**Goal:** Predict house prices from the California Housing dataset.
-**Approach:**
+## Goal:
+Predict house prices from the California Housing dataset.
+## Approach:
   - Applied PowerTransformer on input features (X) for normalization.
   - Applied FunctionTransformer to take log of target (y).
   - Used StandardScaler for scaling numerical features.
   - Trained a Linear Regression model.
   - Evaluated performance using RMSE (Root Mean Square Error).
-**Results:**
+## Results:
 - RMSE on actual y: 0.60
-- RMSE on log-transformed y: 0.19
+- RMSE on log-transformed y: 0.17
 
 # Task 2: Email Spam Detection (NLP)
-**Goal:** Build a text classification model to detect spam emails.
-**Approach:**
+## Goal: 
+Build a text classification model to detect spam emails.
+## Approach:
   - Performed data cleaning using regex and string functions.
   - Encoded labels (y) using LabelEncoder.
   - Converted text to numerical features using TF-IDF Vectorizer.
@@ -24,12 +26,13 @@ During my Certura Machine Learning Internship, I completed three end-to-end ML t
   - Trained a Multinomial Naive Bayes model.
   - Built a Pipeline combining preprocessing and modeling steps.
   - Evaluated using Accuracy Score.
-**Features:**
+## Features:
 Pipeline can predict on unseen email text with consistent preprocessing.
 
 # Task 3: Feature Importance Visualization (Titanic Dataset)
-**Goal:** Identify and visualize important features in survival prediction.
-**Approach:**
+## Goal: 
+Identify and visualize important features in survival prediction.
+## Approach:
   - Performed feature engineering:
   - Dropped irrelevant/missing columns.
   - Filled missing values.
